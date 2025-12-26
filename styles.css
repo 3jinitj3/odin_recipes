@@ -1,0 +1,44 @@
+.home-page {
+    display: border-box;
+    padding: 20px;
+    width: 500px;
+    align-items: center;
+    border: 5px solid black;
+    margin: 10px auto;
+    background: rgba(68, 4, 116, 0.94)
+}
+
+.header {
+    display: block;
+    margin-bottom: 20px;
+    color: rgba(255, 242, 5, 0.774);
+    padding: 1px;
+    border: 5px solid rgb(115, 115, 119);
+    font: sans-serif;
+    text-align: center;
+    background: black;
+}
+
+.recipe-list {
+    display: block;
+    border: 5px solid rgb(115, 115, 119);
+    background: black;
+    color: rgba(255, 242, 5, 0.774);
+    padding: 0;
+    margin-right: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe-list li {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+a:link {
+    color:rgba(255, 242, 5, 0.774);
+}
+
+a:visited {
+    color:rgba(255, 242, 5, 0.774);
+}
